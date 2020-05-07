@@ -1,0 +1,11 @@
+opencv-python
+numpy
+scipy
+scikit-image
+matplotlib
+Pillow
+PyYAML
+dlib
+imutils
+torch==1.2.0
+torchvision==0.4.0
