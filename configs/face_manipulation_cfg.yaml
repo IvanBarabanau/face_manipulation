@@ -1,0 +1,12 @@
+img_path: "imgs/celeba_test_sample.jpg"
+facial_landmarks_model_path: "checkpoints/shape_predictor_68_face_landmarks.dat"
+
+vae_cfg_path: "PyTorch-VAE/configs/vae.yaml"
+vae_model_path: checkpoints/vae_model.ckpt
+
+latent_vector:
+  eyeglasses: checkpoints/eyeglasses.pt
+
+face_attribute: "eyeglasses"
+img_inference_shape: 64
+face_attribute_change_scale: 4
